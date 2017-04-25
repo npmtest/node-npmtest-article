@@ -1,4 +1,7 @@
-# test coverage for  [article (v1.1.2)](https://github.com/AndreasMadsen/article)  [![npm package](https://img.shields.io/npm/v/npmtest-article.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-article) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-article.svg)](https://travis-ci.org/npmtest/node-npmtest-article)
+# npmtest-article
+
+#### basic test coverage for  [article (v1.1.2)](https://github.com/AndreasMadsen/article)  [![npm package](https://img.shields.io/npm/v/npmtest-article.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-article) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-article.svg)](https://travis-ci.org/npmtest/node-npmtest-article)
+
 #### Analyze a stream of HTML and outsputs the article title, text, and image
 
 [![NPM](https://nodei.co/npm/article.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/article)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-article/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-article/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-article/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-article/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-article/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-article/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-article/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-article/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-article/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-article/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-article/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-article/build/coverage.html/index.html)
 
@@ -89,7 +92,8 @@
     "scripts": {
         "test": "tap test/reallife/runner.js test/internal/*"
     },
-    "version": "1.1.2"
+    "version": "1.1.2",
+    "bin": {}
 }
 ```
 
